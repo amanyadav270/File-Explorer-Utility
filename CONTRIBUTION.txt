@@ -1,0 +1,45 @@
+## Contributions
+
+Here's a breakdown of the primary contributions to the project:
+
+### Aman Yadav (24csu012)
+Lead Developer and Core Architect
+
+- Core Application Logic  
+  Designed and implemented the main application flow and command handling in:  
+  - main.cpp  
+  - Shell.hpp  
+  - Shell.cpp
+
+- Directory Navigation Commands  
+  Developed robust navigation features for seamless traversal:  
+  - cd.hpp  
+  - cd_back.hpp  
+  - cd_forward.hpp  
+  - cdir.hpp  
+  - gotodir.hpp
+
+- File and Folder Management  
+  Enabled comprehensive file system operations:  
+  - copy.hpp  
+  - delete.hpp  
+  - list.hpp  
+  - recent_files.hpp  
+  - search.hpp
+
+- Utility Commands  
+  Enhanced user experience with:  
+  - clear.hpp  
+  - help.hpp
+
+### Deepesh Yadav (24csu051)
+- Event Logging  
+  Developed event_auto.hpp, enabling real-time monitoring and logging of file system events.
+
+### Dhruv Gupta (24csu358)
+- Existence Check  
+  Contributed exists.hpp, providing the capability to verify the presence of files or folders.
+
+### Abhishek Kumar (24csu005)
+- Application Exit  
+  Implemented graceful termination of the application via exit.hpp.
