@@ -44,7 +44,9 @@ cd File-Explorer-Utility
 Use the main.exe to run the terminal.
 
 ### 3. Compile using g++
-Navigate to the directory containing main.cpp, Shell.cpp, and all .hpp files.
+1.All the commands/features and other files should be in same folder.
+2.Navigate to main.cpp and run then enter the below bash command.
+3.Then go to the folder containig main.exe and run it.
 
 ```bash
 g++ .\main.cpp .\Shell.cpp -o main.exe ; if ($?) { .\main.exe }
