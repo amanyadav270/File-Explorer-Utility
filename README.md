@@ -47,7 +47,7 @@ Use the main.exe to run the terminal.
 Navigate to the directory containing main.cpp, Shell.cpp, and all .hpp files.
 
 ```bash
-g++ -I. main.cpp Shell.cpp -o main.exe && ./main.exe
+g++ .\main.cpp .\Shell.cpp -o main.exe ; if ($?) { .\main.exe }
 ```
 
 - g++: The C++ compiler.
